@@ -6,6 +6,12 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@uppy/core": "^1.13.3",
+    "@uppy/dashboard": "^1.12.9",
+    "@uppy/dropbox": "^1.4.17",
+    "@uppy/google-drive": "^1.5.17",
+    "@uppy/react": "^1.10.9",
+    "@uppy/url": "^1.5.12",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
@@ -34,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:8080"
 }
