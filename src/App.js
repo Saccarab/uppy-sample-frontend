@@ -18,6 +18,8 @@ export default class App extends Component {
     .use(DashboardPlugin, {
       id: 'DashboardPlugin',
     })
+    // empty url requests are proxied to http://localhost:8080
+    // look package.json
     .use(GoogleDrive, {
       target: DashboardPlugin,
       companionUrl: '/'
